@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "d25c1bb4-88ee-437a-a5e0-c773fb768fb4",
+		"name": "DPA.Practica01-24100586",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48047585",
+		"_collection_link": "https://ronaldohr-4492855.postman.co/workspace/Ronaldo's-Workspace~eb40cd9c-44a0-4062-80d9-0aee614bb211/collection/48047585-d25c1bb4-88ee-437a-a5e0-c773fb768fb4?action=share&source=collection_link&creator=48047585"
+	},
+	"item": [
+		{
+			"name": "Listar Carreras Universitarias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5058/api/Carrera",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Carrera"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Carreras Universitarias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nombre\" : \"Prueba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5058/api/Carrera",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Carrera"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Carreras Universitarias",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"Nombre\" : \"Contabilidad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5058/api/Carrera/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Carrera",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Carreras Universitarias",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5058/api/Carrera/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Carrera",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Estudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5058/api/Estudiante",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Estudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Estudiante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paterno\": \"Hancco\",\r\n    \"materno\": \"Ramos\",\r\n    \"nombres\": \"Ronaldo\",\r\n    \"fechanacimiento\": \"1998-10-26\",\r\n    \"carreraId\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5058/api/Estudiante",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Estudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Estudiante",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paterno\": \"Hancco\",\r\n    \"materno\": \"Ramos\",\r\n    \"nombres\": \"Ronaldo\",\r\n    \"fechanacimiento\": \"1998-10-26\",\r\n    \"carreraId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5058/api/Estudiante/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Estudiante",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Estudiante",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5058/api/Estudiante/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"api",
+						"Estudiante",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

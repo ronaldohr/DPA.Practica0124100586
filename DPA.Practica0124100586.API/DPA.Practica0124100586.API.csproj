@@ -10,4 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="PreguntasTeoria\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DPA.Practica0124100586.Core\DPA.Practica0124100586.Core.csproj" />
+  </ItemGroup>
+
 </Project>
