@@ -1,0 +1,6 @@
+@DPA.Practica0124100586.API_HostAddress = http://localhost:5058
+
+GET {{DPA.Practica0124100586.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
