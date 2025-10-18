@@ -1,0 +1,9 @@
+Pregunta 7: Buenas prácticas y reflexión (2 puntos)
+a. ¿Qué dificultades tuviste durante el scaffolding y cómo las solucionaste?
+- Al momento de hacer scaffolding me salió error pero era porque no habia colocado como proyecto de inicio al Core.
+b. ¿Qué diferencias notaste entre usar un controlador autogenerado y uno con repository? ¿Qué enfoque prefieres?
+- El autogenerado, trae la data directamente de la base de datos y el repository enmascara la data. Es más seguro un controlador con repository.
+c. ¿Qué buenas prácticas implementaste (en código real) y por qué?
+- Implemente el EstudianteService, para limitar la vista del usuario final y solo mostrar los datos que quería.
+d. ¿Usaste herramientas de IA en esta práctica? (Tranquilo(a) que si es válido) ¿Qué herramientas usaste y en que parte del proyecto?
+- Utilice copilot y chat gpt. El copilot lo utilice para hacer el controlador autogenerado y para algunos errores que me iban saliendo. Chat GPT lo utilice para los errores al igual que en copilot.
